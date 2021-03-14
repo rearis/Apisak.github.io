@@ -1,23 +1,26 @@
 import layoutimg from "./asset/img/layoutimg.svg";
 import {Card, CardGroup, Container, Row} from "react-bootstrap";
 import Cerimg from "./asset/img/Cer_Sec.png";
+import {SRLWrapper} from "simple-react-lightbox";
 
 export default function CardLayout() {
   return (
-    <section className="pad-section" id="tabcer">
+    <section className="pad-section scroll-top" id="tabcer">
       <h1 className="text-uppercase pad-skill text-left">
         My <span id="cercolor">Certificate</span>
       </h1>
       <Container>
-        <div>
-          <Row xs="4" className="justify-content-center">
-            <img
-              className="img-fluid border border-secondary text-center"
-              src={Cerimg}
-              alt="CompTIA Security+ Certificate"
-            />
-          </Row>
-        </div>
+        <SRLWrapper>
+          <div>
+            <Row xs="4" className="justify-content-center">
+              <img
+                className="img-fluid border border-secondary text-center"
+                src={Cerimg}
+                alt="CompTIA Security+ Certificate"
+              />
+            </Row>
+          </div>
+        </SRLWrapper>
         <br />
         <div
           data-iframe-width="150"

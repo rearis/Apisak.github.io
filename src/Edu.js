@@ -31,7 +31,7 @@ export default function Timeline() {
     },
   ];
   return (
-    <Container id="tabedu" className="pad-section">
+    <Container id="tabedu" className="pad-section scroll-top">
       <h1 className="text-uppercase pad-skill">
         My <span id="educolor">Education</span>
       </h1>

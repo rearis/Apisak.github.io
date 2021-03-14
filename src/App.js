@@ -8,6 +8,7 @@ import ContainFoot from "./ContainFoot.js";
 import Layout from "./layout.js";
 import Skill from "./Skill";
 import Timeline from "./Edu";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         <Container>
           <Row>
             <Col className="pad-top">
-              <Cert />
+              <SimpleReactLightbox>
+                <Cert />
+              </SimpleReactLightbox>
             </Col>
           </Row>
         </Container>
