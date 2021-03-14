@@ -196,7 +196,7 @@ a {
 }
 
 .et-hero-tabs-container {
-  display: -webkit-box;
+  /* display: -webkit-box; */
   /*display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
