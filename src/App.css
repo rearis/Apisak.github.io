@@ -197,11 +197,11 @@ a {
 
 .et-hero-tabs-container {
   display: -webkit-box;
-  display: flex;
+  /*display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-          flex-direction: row;
-  position: absolute;
+          /*flex-direction: row;*/
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height: 70px;
