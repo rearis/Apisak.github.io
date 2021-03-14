@@ -1,52 +1,50 @@
 import layoutimg from "./asset/img/layoutimg.svg";
-import {Card, CardGroup} from "react-bootstrap";
+import {Card, CardGroup, Container, Row} from "react-bootstrap";
+import Cerimg from "./asset/img/Cer_Sec.png";
 
 export default function CardLayout() {
   return (
-    <section className="pad-section">
-      <CardGroup id="tabcer">
-        <Card>
-          <Card.Img variant="top" src={layoutimg} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src={layoutimg} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src={layoutimg} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+    <section className="pad-section" id="tabcer">
+      <h1 className="text-uppercase pad-skill text-left">
+        My <span id="cercolor">Certificate</span>
+      </h1>
+      <Container>
+        <div>
+          <Row xs="4" className="justify-content-center">
+            <img
+              className="img-fluid border border-secondary text-center"
+              src={Cerimg}
+              alt="CompTIA Security+ Certificate"
+            />
+          </Row>
+        </div>
+        <br />
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="abe48f11-59d9-49c3-bed0-bf6ceb52c046"
+          data-share-badge-host="https://www.youracclaim.com"
+        ></div>
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="84b5eb3f-6f9c-4fd9-a3f2-0c18efe31bd2"
+          data-share-badge-host="https://www.youracclaim.com"
+        ></div>
+        <br />
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="bf19c006-7be3-46ea-97a8-0a09cf0bf201"
+          data-share-badge-host="https://www.youracclaim.com"
+        ></div>
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="c1fbcced-74df-408a-901c-614ab039bb59"
+          data-share-badge-host="https://www.youracclaim.com"
+        ></div>
+      </Container>
     </section>
   );
 }

@@ -7,12 +7,14 @@ import Cert from "./Cer.js";
 import ContainFoot from "./ContainFoot.js";
 import Layout from "./layout.js";
 import Skill from "./Skill";
+import Timeline from "./Edu";
 
 function App() {
   return (
     <>
       <Layout />
       <Skill />
+      <Timeline />
       <div className="App">
         {/* <Navy /> */}
         <Container>

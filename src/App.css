@@ -42,6 +42,14 @@ html {
   color: #2ecc71;
 }
 
+#educolor{
+  color: #f39c12;
+}
+
+#cercolor{
+  color: #45aaf2;
+}
+
 .text-left{
   text-align: left;
 }
