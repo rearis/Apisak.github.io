@@ -27,7 +27,7 @@ export default function Layout() {
           </a>
         </h1>
       </section>
-      <Navbar sticky="top" className="et-hero-tabs-container p-0">
+      <Navbar className="et-hero-tabs-container p-0">
         <a className="et-hero-tab" href="#tabhome">
           Home
         </a>
