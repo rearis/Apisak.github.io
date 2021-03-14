@@ -11,7 +11,7 @@ export default function Layout() {
   return (
     <>
       <section className="et-hero-tabs" id="tabhome">
-        <h1>Apisak Sriprasert</h1>
+        <h1>APISAK SRIPRASERT</h1>
         <h3>
           I am graduated in major of Information Technology at Rajamangala
           University of Technology Krungthep.
