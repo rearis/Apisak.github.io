@@ -157,7 +157,7 @@ a {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-size: 0.8rem;
-  padding: 23px;
+  padding: 25px 0px; 
 }
 .et-hero-tab:hover {
   color: white;
