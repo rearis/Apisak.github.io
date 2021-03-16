@@ -46,24 +46,24 @@
 
 
       // scroll into view
-      document.querySelector('.et-hero-tabs-container').addEventListener('click', function(e) {
+      document.querySelector('.js-scroll-into-tabhome').addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector('.home').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#tabhome').scrollIntoView({ behavior: 'smooth' });
       });
 
-      document.querySelector('.et-hero-tabs-container').addEventListener('click', function(e) {
+      document.querySelector('.js-scroll-into-tabskill').addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector('.skill').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#tabskill').scrollIntoView({ behavior: 'smooth' });
       });
 
-      document.querySelector('.et-hero-tabs-container').addEventListener('click', function(e) {
+      document.querySelector('.js-scroll-into-tabedu').addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector('.edu').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#tabedu').scrollIntoView({ behavior: 'smooth' });
       });
 
-      document.querySelector('.et-hero-tabs-container').addEventListener('click', function(e) {
+      document.querySelector('.js-scroll-into-tabcer').addEventListener('click', function(e) {
         e.preventDefault();
-        document.querySelector('.cer').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#tabcer').scrollIntoView({ behavior: 'smooth' });
       });
 
     });

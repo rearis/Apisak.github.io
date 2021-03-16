@@ -22,22 +22,22 @@ export default function Layout() {
         </h3>
         <h3>And Hopefully someone give me a chance</h3>
         <h1>
-          <a href="#tabskill">
+          <a className="js-scroll-into-tabskill" href="#tabskill">
             <FontAwesomeIcon icon={["fas", "angle-double-down"]} />
           </a>
         </h1>
       </section>
       <Navbar sticky="top" className="et-hero-tabs-container p-0">
-        <a className="et-hero-tab" href="#tabhome" id="home">
+        <a className="et-hero-tab js-scroll-into-tabhome" href="#tabhome">
           Home
         </a>
-        <a className="et-hero-tab" href="#tabskill" id="skill">
+        <a className="et-hero-tab js-scroll-into-tabskill" href="#tabskill">
           Skill
         </a>
-        <a className="et-hero-tab" href="#tabedu" id="edu">
+        <a className="et-hero-tab js-scroll-into-tabedu" href="#tabedu">
           Education
         </a>
-        <a className="et-hero-tab" href="#tabcer" id="cer">
+        <a className="et-hero-tab js-scroll-into-tabcer" href="#tabcer">
           Certificate
         </a>
         <span className="et-hero-tab-slider"></span>
