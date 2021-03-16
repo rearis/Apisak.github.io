@@ -28,16 +28,16 @@ export default function Layout() {
         </h1>
       </section>
       <Navbar sticky="top" className="et-hero-tabs-container p-0">
-        <a className="et-hero-tab" href="#tabhome">
+        <a className="et-hero-tab" href="#tabhome" id="home">
           Home
         </a>
-        <a className="et-hero-tab" href="#tabskill">
+        <a className="et-hero-tab" href="#tabskill" id="skill">
           Skill
         </a>
-        <a className="et-hero-tab" href="#tabedu">
+        <a className="et-hero-tab" href="#tabedu" id="edu">
           Education
         </a>
-        <a className="et-hero-tab" href="#tabcer">
+        <a className="et-hero-tab" href="#tabcer" id="cer">
           Certificate
         </a>
         <span className="et-hero-tab-slider"></span>
