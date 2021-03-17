@@ -12,7 +12,7 @@ export default function CardLayout() {
       <Container>
         <SRLWrapper>
           <div>
-            <Row xs="4" className="justify-content-center">
+            <Row md="3" className="justify-content-center">
               <img
                 className="img-fluid border border-secondary text-center"
                 src={Cerimg}
