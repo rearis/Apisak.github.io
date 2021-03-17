@@ -19,6 +19,8 @@
     "react-bootstrap": "^1.4.0",
     "react-chrono": "^1.9.2",
     "react-dom": "^17.0.1",
+    "react-lightbox-component": "^1.2.1",
+    "react-native-lightbox": "^0.8.1",
     "react-scripts": "4.0.1",
     "simple-react-lightbox": "^3.6.4",
     "smoothscroll-polyfill": "^0.4.4",
@@ -52,6 +54,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
