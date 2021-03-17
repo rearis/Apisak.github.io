@@ -51,6 +51,11 @@
         document.querySelector('#tabhome').scrollIntoView({ behavior: 'smooth' });
       });
 
+      document.querySelector('.js-scroll-into-skill').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('.scskill').scrollIntoView({ behavior: 'smooth' });
+      });
+
       document.querySelector('.js-scroll-into-tabskill').addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector('#tabskill').scrollIntoView({ behavior: 'smooth' });

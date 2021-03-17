@@ -22,7 +22,7 @@ export default function Layout() {
         </h3>
         <h3>And Hopefully someone give me a chance</h3>
         <h1>
-          <a className="js-scroll-into-tabskill" href="#tabskill">
+          <a className="js-scroll-into-skill">
             <FontAwesomeIcon icon={["fas", "angle-double-down"]} />
           </a>
         </h1>

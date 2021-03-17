@@ -8,7 +8,7 @@ library.add(fas, fab, far);
 
 export default function Skill() {
   return (
-    <section className="pad-section scroll-top" id="tabskill">
+    <section className="pad-section scroll-top scskill" id="tabskill">
       <Container>
         <h1 className="text-uppercase pad-skill">
           My <span id="skillcolor">Skill</span>
