@@ -13,6 +13,7 @@ export default function CardLayout() {
         <SRLWrapper>
           <div className="justify-content-center">
             <img
+              style={{height: "300px"}}
               className="img-fluid border border-secondary text-center"
               src={Cerimg}
               alt="CompTIA Security+ Certificate"
