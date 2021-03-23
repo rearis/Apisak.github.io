@@ -11,14 +11,12 @@ export default function CardLayout() {
       </h1>
       <Container>
         <SRLWrapper>
-          <div>
-            <Row md="3" className="justify-content-center">
-              <img
-                className="img-fluid border border-secondary text-center"
-                src={Cerimg}
-                alt="CompTIA Security+ Certificate"
-              />
-            </Row>
+          <div className="justify-content-center">
+            <img
+              className="img-fluid border border-secondary text-center"
+              src={Cerimg}
+              alt="CompTIA Security+ Certificate"
+            />
           </div>
         </SRLWrapper>
         <br />
